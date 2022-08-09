@@ -3,7 +3,6 @@
   	/* Layout */
 		  --page-width: 800px;
 		  --content-padding: 2rem;
-			--hf-height: 12vh;
 
 	  /* Typography */
 		  --heading-text-size: 24pt;
@@ -37,10 +36,6 @@
 		color: var(--link-colour);
 	}
 
-	/*#article object {
-		min-height: calc(100vh - (var(--hf-height) * 2) - (var(--content-padding) * 6));
-	}*/
-
 	.title {
 		font-size: var(--heading-text-size);		
 	}
@@ -65,5 +60,9 @@
 		background-color: var(--link-colour);
 		color: var(--background-colour);
 		border-radius: var(--border-radius);
+	}
+
+	.copyright {
+		display: block;
 	}
 /*End private styles*/	
