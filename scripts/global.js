@@ -23,3 +23,4 @@
     function load_contact() {
         document.getElementById("article").innerHTML = '<object type="text/html" data="contact.html" width="100%" height="auto"></object>';
     }   
+    

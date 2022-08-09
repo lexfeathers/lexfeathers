@@ -5,7 +5,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="styles.css">		
 		<link rel="icon" type="image/x-icon" href="images/feather.ico">
+
 		<script src="scripts/global.js" defer="defer"></script>
+		<script src="scripts/htmlinclude.js"></script>
 		
 		<title>Lex Feathers' Log</title>
 	</head>
@@ -41,6 +43,11 @@
 				<section id="article">
 					<h1>Hey!</h1>
 					<p>This is the default content!</p>
+					<!-- Include home.html on the homepage-->
+					<div w3-include-html="home.html"></div> 					
+					<script>
+						includeHTML();
+					</script>
 				</section>
 
 				<footer>
