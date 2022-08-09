@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" type="text/css" href="styles.css">		
-		<link rel="icon" type="image/x-icon" href="images/feather.ico">
+		<div w3-include-html="common/head.html"></div>	
 
+		<link rel="stylesheet" type="text/css" href="styles.css">		
 		<script src="scripts/global.js" defer="defer"></script>
 		<script src="scripts/htmlinclude.js"></script>
 		
@@ -41,8 +39,6 @@
 				</header>
 
 				<section id="article">
-					<h1>Hey!</h1>
-					<p>This is the default content!</p>		
 					<!-- Include home.html on the homepage-->
 					<div w3-include-html="home.html"></div>							
 				</section>
@@ -67,10 +63,9 @@
 				</footer>		
 			</div>
 		</div>
-
-		<script>
-			includeHTML();
-		</script>
-
 	</body>
 </html>
+
+<script>
+	includeHTML();
+</script>
