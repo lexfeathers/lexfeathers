@@ -64,6 +64,7 @@
 
 	.copyright {
 		display: block;
-		text-align: center;
+		color: var(--link-colour);
+		font-size: 10pt;
 	}
 /*End private styles*/	
