@@ -1,14 +1,20 @@
-<div class="footercolumn"></div>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles/footer.css">
+</head>
 
-<div class="footercolumn footercredit">
-  <p>&copy; <span id="currentyear"></span> Lex Feathers</p>
-  <!-- Get current year -->
-  <script>
-    date = new Date();
-    year = date.getFullYear();
+<div id="footerlayout">
+  <div class="footercolumn"></div>
 
-    document.getElementById("currentyear").innerHTML = year;
-  </script>							
+  <div class="footercolumn footercredit">
+    <p>&copy; <span id="currentyear"></span> Lex Feathers</p>
+    <!-- Get current year -->
+    <script>
+      date = new Date();
+      year = date.getFullYear();
+
+      document.getElementById("currentyear").innerHTML = year;
+    </script>							
+  </div>
+
+  <div class="footercolumn"></div>
 </div>
-
-<div class="footercolumn"></div>	

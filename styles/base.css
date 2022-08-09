@@ -37,9 +37,9 @@
 		color: var(--link-colour);
 	}
 
-	#article object {
+	/*#article object {
 		min-height: calc(100vh - (var(--hf-height) * 2) - (var(--content-padding) * 6));
-	}
+	}*/
 
 	.title {
 		font-size: var(--heading-text-size);		
@@ -65,16 +65,5 @@
 		background-color: var(--link-colour);
 		color: var(--background-colour);
 		border-radius: var(--border-radius);
-	}
-
-	header {
-		height: var(--hf-height);
-	}
-	footer {
-		display: flex;
-		justify-content: space-evenly;
-		align-items: center;
-		padding: 2rem;
-		height: var(--hf-height);
 	}
 /*End private styles*/	
