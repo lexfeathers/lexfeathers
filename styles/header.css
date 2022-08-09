@@ -10,3 +10,7 @@
 .letterhead>* {
   margin: 0 1rem 0 0;
 }
+.letterhead a {
+  text-decoration: none;
+  color: var(--text-colour);
+}
