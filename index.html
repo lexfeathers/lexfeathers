@@ -15,24 +15,21 @@
 			<div class="maincontainer">
 				<header>					
 						<div class="letterhead">
-							<a href="index.html">
-								<img src="images/feather.ico" title="Lex Feathers' Logo">
-							</a>
-							<h1 class="title">Lex Feathers</h1>												
+							<div w3-include-html="common/header.html"></div>
 						</div>
 					<nav class="menu">
 						<ul>
 							<li>
-								<a href="#" id="Home" onclick="load_home()" title="Home">Home</a>
+								<a href="index.html" id="Home" title="Home">Home</a>
 							</li>
 							<li>
-								<a href="#" id="Archive" onclick="load_archive()" title="Archive">Archive</a>
+								<a href="archive.html" id="Archive" title="Archive">Archive</a>
 							</li>								
 							<li>
-								<a href="#" id="About" onclick="load_about()" title="About">About</a>
+								<a href="about.html" id="About" title="About">About</a>
 							</li>
 							<li>
-								<a href="#" id="Contact" onclick="load_contact()" title="Contact">Contact</a>
+								<a href="contact.html" id="Contact" title="Contact">Contact</a>
 							</li>
 						</ul>
 					</nav>					
@@ -44,22 +41,7 @@
 				</section>
 
 				<footer>
-					<div class="footercolumn">
-						
-					</div>
-					<div class="footercolumn footercredit">
-						<p>&copy; <span id="currentyear"></span> Lex Feathers</p>
-					  <!-- Get current year -->
-						<script>
-							date = new Date();
-							year = date.getFullYear();
-
-							document.getElementById("currentyear").innerHTML = year;
-						</script>							
-					</div>
-					<div class="footercolumn">
-						
-					</div>					
+					<div w3-include-html="common/footer.html"></div>
 				</footer>		
 			</div>
 		</div>
