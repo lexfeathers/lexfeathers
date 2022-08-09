@@ -1,0 +1,107 @@
+/*Control global variables here*/
+  :root {
+  	/* Layout */
+		  --page-width: 800px;
+		  --content-padding: 2rem;
+			--hf-height: 12vh;
+
+	  /* Typography */
+		  --heading-text-size: 24pt;
+		  --menu-item-size: 18pt;
+		  --text-size: 14pt;
+		  --line-height: 1.4;
+
+	  /* Colours */
+		  --background-colour: #210b1e;
+		  --foreground-colour: #210b1e;
+		  --text-colour: #F4D8CD;
+		  --link-colour: #EE4266;			 
+
+	  /* Borders */
+		  --border-thickness: 2px;
+		  --border-radius: 4px; 
+  }		
+/*End global variables*/
+
+/*Begin private styles*/
+	body {
+		font-family: novel-mono-pro, monospace;
+		background-color: var(--background-colour);
+		color: var(--text-colour);
+		font-size: var(--text-size);
+		line-height: var(--line-height);
+		margin: 0;
+	}
+
+	a {
+		color: var(--link-colour);
+	}
+
+	#article object {
+		min-height: calc(100vh - (var(--hf-height) * 2) - (var(--content-padding) * 6));
+	}
+
+  .letterhead {
+  	display: flex;
+  	justify-content: flex-start;
+  	align-items: center;
+  }
+  .letterhead img {
+  	width: 2rem;
+  }
+  .letterhead>* {
+  	margin: 0 1rem 0 0;
+  }
+	.title {
+		font-size: var(--heading-text-size);		
+	}
+
+	.page-width {
+		width: var(--page-width);
+		margin: auto;
+	}		
+
+	.maincontainer {
+		padding: var(--content-padding);
+		background-color: var(--foreground-colour);
+	}
+	.maincontainer section {
+		border: var(--border-thickness) solid var(--link-colour);
+		border-radius: var(--border-radius);
+		padding: 2rem;
+	}
+	.maincontainer section h2 {
+		padding: 0.5rem;
+		text-decoration: underline;
+		background-color: var(--link-colour);
+		color: var(--background-colour);
+		border-radius: var(--border-radius);
+	}	
+
+/* Menu styles */
+	.menu ul {
+	  list-style: none;
+	  padding: 0;
+	}
+	.menu ul li {
+		margin-right: 1rem;
+		display: inline;
+		font-size: var(--menu-item-size);
+	  font-weight: bold;
+	}
+	.menu ul li a {
+		text-decoration: none;
+		text-transform: lowercase;
+	}	
+
+	header {
+		height: var(--hf-height);
+	}
+	footer {
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		padding: 2rem;
+		height: var(--hf-height);
+	}
+/*End private styles*/	

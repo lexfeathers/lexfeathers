@@ -1,0 +1,458 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"s",
+				"sticky"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"st",
+				"sticky"
+			],
+			[
+				"t",
+				"text-align"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"do",
+				"double"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"hea",
+				"header"
+			],
+			[
+				"i",
+				"inline"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"pur",
+				"mediumpurple"
+			],
+			[
+				"purple",
+				"rebeccapurple"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"red",
+				"mediumvioletred"
+			],
+			[
+				"se",
+				"section"
+			],
+			[
+				"r",
+				"running"
+			],
+			[
+				"no",
+				"normal"
+			],
+			[
+				"sha",
+				"box-shadow"
+			],
+			[
+				"background-i",
+				"background-position"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"light",
+				"lightcoral"
+			],
+			[
+				"borde",
+				"border"
+			],
+			[
+				"bord",
+				"border-collapse"
+			],
+			[
+				"gray",
+				"lightgray"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"td",
+				"td"
+			],
+			[
+				"th",
+				"thead"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"NT",
+				"nth-child"
+			],
+			[
+				"nav",
+				"navbuttons"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"a",
+				"auto"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2818,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "about.html",
+			"settings":
+			{
+				"buffer_size": 2818,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"theme",
+				"UI: Customize Color Scheme"
+			],
+			[
+				"scheme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"node",
+				"Nodejs::NPM::Install"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"bui",
+				"Build: New Build System"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"console.log(5 + 6);"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/walki/Documents/Code/blogsite.html",
+		"/C/Users/walki/AppData/Roaming/Sublime Text 3/Packages/User/NodeJs.js",
+		"/C/Users/walki/AppData/Roaming/Sublime Text 3/Packages/User/JavaScript.sublime-build",
+		"/C/Users/walki/AppData/Roaming/Sublime Text 3/Packages/User/nodejs.sublime-build",
+		"/C/Users/walki/AppData/Roaming/Sublime Text 3/Packages/User/node.sublime-build",
+		"/C/Users/walki/AppData/Roaming/Sublime Text 3/Packages/User/JSC.sublime-build",
+		"/C/Users/walki/Downloads/Oblivion.xmlc",
+		"/C/Users/walki/Downloads/Plutoid Artists/0 - Web design/release-log.html",
+		"/C/Users/walki/Downloads/Plutoid Artists/0 - Web design/Display release date metafield.html",
+		"/C/Users/walki/AppData/LocalLow/Stunlock Studios/VRising/Saves/v1/d37cc5d4-399a-45ea-b8a1-dc6160e8c2f6/ServerGameSettings.json",
+		"/C/Program Files/Two notes Audio Engineering/Torpedo Remote v5/Torpedo Remote ReadMe.txt",
+		"/C/Users/walki/Downloads/testhypnosisgame1-1.0-pc/testhypnosisgame1-1.0-pc/log.txt",
+		"/C/Users/walki/Desktop/connect/logs/--06-10-2021-20h08m20s.txt",
+		"/C/Users/walki/AppData/Local/Temp/7zO0D2DAF9F/Readme.txt",
+		"/C/Users/walki/Projects/shopify-dawn/sections/page.liquid",
+		"/C/Users/walki/Projects/shopify-dawn/snippets/product-card.liquid",
+		"/C/Users/walki/Desktop/Lex Metcalfe Bio.txt",
+		"/C/Users/walki/Projects/shopify-dawn/snippets/icon-cart.liquid",
+		"/C/Users/walki/Desktop/connect/logs/--22-07-2021-19h39m58s.txt",
+		"/C/Users/walki/Sync/Test.txt",
+		"/C/Users/walki/Downloads/iZotope Ozone Advanced 8.01 + Crack [CracksMind]/Note.txt",
+		"/C/Users/walki/Downloads/iZotope Ozone Advanced 8.01 + Crack [CracksMind]/iZotope Standalone/Instruction!!.txt",
+		"/C/Users/walki/Downloads/iZotope Ozone Advanced 8.01 + Crack [CracksMind]/iZotope Standalone/Ozone 8/win64/Instruction!!.txt",
+		"/C/Users/walki/Downloads/iZotope Ozone Advanced 8.01 + Crack [CracksMind]/Instruction!!.txt"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2818,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "about.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2818,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 32.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.nodejs":
+	{
+		"height": 108.0
+	},
+	"pinned_build_system": "Packages/User/JavaScript.sublime-build",
+	"project": "Lex Feathers site.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 178.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

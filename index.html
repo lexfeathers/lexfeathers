@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="styles.css">		
+		<link rel="icon" type="image/x-icon" href="images/feather.ico">
+		<script src="scripts/global.js" defer="defer"></script>
+		
+		<title>Lex Feathers' Log</title>
+	</head>
+
+	<body>
+		<div class="page-width">
+			<div class="maincontainer">
+				<header>					
+						<div class="letterhead">
+							<a href="index.html">
+								<img src="images/feather.ico" title="Lex Feathers' Logo">
+							</a>
+							<h1 class="title">Lex Feathers</h1>												
+						</div>
+					<nav class="menu">
+						<ul>
+							<li>
+								<a href="#" id="Home" onclick="load_home()" title="Home">Home</a>
+							</li>
+							<li>
+								<a href="#" id="Archive" onclick="load_archive()" title="Archive">Archive</a>
+							</li>								
+							<li>
+								<a href="#" id="About" onclick="load_about()" title="About">About</a>
+							</li>
+							<li>
+								<a href="#" id="Contact" onclick="load_contact()" title="Contact">Contact</a>
+							</li>
+						</ul>
+					</nav>					
+				</header>
+
+				<section id="article">
+					<h1>Hey!</h1>
+					<p>This is the default content!</p>
+				</section>
+
+				<footer>
+					<div class="footercolumn">
+						
+					</div>
+					<div class="footercolumn footercredit">
+						<p>&copy; <span id="currentyear"></span> Lex Feathers</p>
+					  <!-- Get current year -->
+						<script>
+							date = new Date();
+							year = date.getFullYear();
+
+							document.getElementById("currentyear").innerHTML = year;
+						</script>							
+					</div>
+					<div class="footercolumn">
+						
+					</div>					
+				</footer>		
+			</div>
+		</div>
+	</body>
+</html>
