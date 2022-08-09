@@ -61,6 +61,9 @@
 		color: var(--background-colour);
 		border-radius: var(--border-radius);
 	}
+	#article h1 {
+		margin-top: auto;
+	}
 
 	.copyright {
 		display: block;
