@@ -41,17 +41,6 @@
 		min-height: calc(100vh - (var(--hf-height) * 2) - (var(--content-padding) * 6));
 	}
 
-  .letterhead {
-  	display: flex;
-  	justify-content: flex-start;
-  	align-items: center;
-  }
-  .letterhead img {
-  	width: 2rem;
-  }
-  .letterhead>* {
-  	margin: 0 1rem 0 0;
-  }
 	.title {
 		font-size: var(--heading-text-size);		
 	}
@@ -76,23 +65,7 @@
 		background-color: var(--link-colour);
 		color: var(--background-colour);
 		border-radius: var(--border-radius);
-	}	
-
-/* Menu styles */
-	.menu ul {
-	  list-style: none;
-	  padding: 0;
 	}
-	.menu ul li {
-		margin-right: 1rem;
-		display: inline;
-		font-size: var(--menu-item-size);
-	  font-weight: bold;
-	}
-	.menu ul li a {
-		text-decoration: none;
-		text-transform: lowercase;
-	}	
 
 	header {
 		height: var(--hf-height);
