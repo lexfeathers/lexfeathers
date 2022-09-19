@@ -12,3 +12,16 @@
   text-transform: lowercase;
   margin-top: 0;  
 }	
+
+/* Mobile */
+@media screen and (max-width: 749px) {
+  footer {
+    text-align: center;
+  } 
+  #footerlayout {
+    justify-content: space-between;
+  }
+  .footercolumn a {
+    margin-right: auto;
+  }
+}
