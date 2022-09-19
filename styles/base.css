@@ -36,6 +36,12 @@
 		color: var(--link-colour);
 	}
 
+	hr {
+		color: var(--link-colour);
+		height: calc(var(--border-thickness) / 2);
+		background-color: var(--link-colour);
+	}
+
 	.title {
 		font-size: var(--heading-text-size);		
 	}
