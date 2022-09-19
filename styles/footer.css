@@ -19,7 +19,7 @@
     text-align: center;
   } 
   #footerlayout {
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .footercolumn a {
     margin-right: auto;

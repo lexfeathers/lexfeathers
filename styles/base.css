@@ -97,11 +97,5 @@
 			#Home {
 				display: none;
 			}
-			#footerlayout {
-				justify-content: space-between;
-			}
-			footer {
-				text-align: center;
-			}
 		}
 /*End private styles*/	
