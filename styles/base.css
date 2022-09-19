@@ -40,6 +40,7 @@
 		color: var(--link-colour);
 		height: calc(var(--border-thickness) / 2);
 		background-color: var(--link-colour);
+		border-radius: var(--border-radius);
 	}
 
 	.title {
