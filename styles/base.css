@@ -42,12 +42,9 @@
 		}
 
 		hr {
-			color: var(--link-colour);
-			height: calc(var(--border-thickness) / 2);
-			background-color: var(--link-colour);
+			height: 0px;
+			border: solid calc(var(--border-thickness) / 2) var(--link-colour);
 			border-radius: var(--border-radius);
-			appearance: none;
-			border: none;
 		}
 
 		.title {
