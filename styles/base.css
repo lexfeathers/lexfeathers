@@ -32,6 +32,10 @@
 		margin: 0;
 	}
 
+	.letterhead a svg {
+		fill: var(--text-colour);
+	}
+
 	a {
 		color: var(--link-colour);
 	}
