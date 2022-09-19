@@ -94,7 +94,7 @@
 			#Home {
 				display: none;
 			}
-			.menu > ul > li:nth-child(1) {
+			.menu > ul > li:nth-child(2) {
 				margin-left: 0;
 			}
 		}
