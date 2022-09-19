@@ -32,7 +32,7 @@
 		margin: 0;
 	}
 
-	.letterhead a svg {
+	.letterhead a svg g {
 		fill: var(--text-colour);
 	}
 
