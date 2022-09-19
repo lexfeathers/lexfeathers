@@ -1,11 +1,12 @@
 #footerlayout {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-items: center;
-  padding: 2rem;
+  padding: 2rem 2rem 2rem 0;
 }
 
 .footercolumn a {
+  margin-right: 2rem;
   font-size: 12pt;
   text-decoration: none;
   text-transform: lowercase;
