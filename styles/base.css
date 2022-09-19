@@ -47,6 +47,7 @@
 			background-color: var(--link-colour);
 			border-radius: var(--border-radius);
 			appearance: none;
+			border: none;
 		}
 
 		.title {
