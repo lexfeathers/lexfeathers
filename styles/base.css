@@ -97,6 +97,7 @@
 			}
 			#Home {
 				display: none;
+				margin: 0;
 			}
 		}
 /*End private styles*/	
