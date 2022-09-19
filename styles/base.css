@@ -91,5 +91,8 @@
 			.maincontainer {
 				padding: calc(var(--content-padding) / 2);
 			}
+			#Home {
+				display: none;
+			}
 		}
 /*End private styles*/	
