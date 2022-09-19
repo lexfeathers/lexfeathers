@@ -94,5 +94,8 @@
 			#Home {
 				display: none;
 			}
+			.menu > ul > li:nth-child(1) {
+				margin-left: 0;
+			}
 		}
 /*End private styles*/	
