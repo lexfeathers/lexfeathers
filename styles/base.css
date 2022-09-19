@@ -91,11 +91,17 @@
 			.maincontainer {
 				padding: calc(var(--content-padding) / 2);
 			}
+			.letterhead {
+				justify-content: center;
+			}
 			#Home {
 				display: none;
 			}
-			.menu > ul > li:nth-child(1) {
-				margin: 0;
+			#footerlayout {
+				justify-content: space-between;
+			}
+			footer {
+				text-align: center;
 			}
 		}
 /*End private styles*/	
