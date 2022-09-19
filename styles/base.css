@@ -46,6 +46,7 @@
 			height: calc(var(--border-thickness) / 2);
 			background-color: var(--link-colour);
 			border-radius: var(--border-radius);
+			appearance: none;
 		}
 
 		.title {
@@ -89,7 +90,7 @@
 				width: 100%;
 			}		
 			.maincontainer {
-				padding: calc(var(--content-padding) / 2);
+				padding: calc(var(--content-padding) / 1.5);
 			}
 			.letterhead {
 				justify-content: center;
