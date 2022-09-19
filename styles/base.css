@@ -23,62 +23,71 @@
 /*End global variables*/
 
 /*Begin private styles*/
-	body {
-		font-family: novel-mono-pro, monospace;
-		background-color: var(--background-colour);
-		color: var(--text-colour);
-		font-size: var(--text-size);
-		line-height: var(--line-height);
-		margin: 0;
-	}
+	/* Desktop */
+		body {
+			font-family: novel-mono-pro, monospace;
+			background-color: var(--background-colour);
+			color: var(--text-colour);
+			font-size: var(--text-size);
+			line-height: var(--line-height);
+			margin: 0;
+		}
 
-	.letterhead a svg * {
-		fill: var(--text-colour);
-	}
+		.letterhead a svg * {
+			fill: var(--text-colour);
+		}
 
-	a {
-		color: var(--link-colour);
-	}
+		a {
+			color: var(--link-colour);
+		}
 
-	hr {
-		color: var(--link-colour);
-		height: calc(var(--border-thickness) / 2);
-		background-color: var(--link-colour);
-		border-radius: var(--border-radius);
-	}
+		hr {
+			color: var(--link-colour);
+			height: calc(var(--border-thickness) / 2);
+			background-color: var(--link-colour);
+			border-radius: var(--border-radius);
+		}
 
-	.title {
-		font-size: var(--heading-text-size);		
-	}
+		.title {
+			font-size: var(--heading-text-size);		
+		}
 
-	.page-width {
-		width: var(--page-width);
-		margin: auto;
-	}		
+		.page-width {
+			width: var(--page-width);
+			margin: auto;
+		}		
 
-	.maincontainer {
-		padding: var(--content-padding);
-		background-color: var(--foreground-colour);
-	}
-	.maincontainer section {
-		/*border: var(--border-thickness) solid var(--link-colour);*/
-		border-radius: var(--border-radius);
-		padding: 2rem 0 2rem 0;
-	}
-	.maincontainer section h2 {
-		padding: 0.5rem;
-		text-decoration: underline;
-		background-color: var(--link-colour);
-		color: var(--background-colour);
-		border-radius: var(--border-radius);
-	}
-	#article h1 {
-		margin-top: auto;
-	}
+		.maincontainer {
+			padding: var(--content-padding);
+			background-color: var(--foreground-colour);
+		}
+		.maincontainer section {
+			/*border: var(--border-thickness) solid var(--link-colour);*/
+			border-radius: var(--border-radius);
+			padding: 2rem 0 2rem 0;
+		}
+		.maincontainer section h2 {
+			padding: 0.5rem;
+			text-decoration: underline;
+			background-color: var(--link-colour);
+			color: var(--background-colour);
+			border-radius: var(--border-radius);
+		}
+		#article h1 {
+			margin-top: auto;
+		}
 
-	.copyright {
-		display: block;
-		color: var(--link-colour);
-		font-size: 10pt;
+		.copyright {
+			display: block;
+			color: var(--link-colour);
+			font-size: 10pt;
+		}
+	/* Mobile */
+
+	@media screen and {max-width: 749px} {
+		.page-width {
+			width: 100%;
+			margin: auto;
+		}		
 	}
 /*End private styles*/	
