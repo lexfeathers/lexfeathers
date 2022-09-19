@@ -82,11 +82,14 @@
 			color: var(--link-colour);
 			font-size: 10pt;
 		}
-		
+
 	/* Mobile */
 		@media screen and (max-width: 749px) {
 			.page-width {
 				width: 100%;
 			}		
+			.maincontainer {
+				padding: calc(var(--content-padding) / 2);
+			}
 		}
 /*End private styles*/	
