@@ -4,11 +4,6 @@
   align-items: center;
 }
 /* Logo */
-.letterhead svg {
-  width: 2rem;
-  height: auto;
-  vertical-align: middle;
-}
 .letterhead>* {
   margin: 0 1rem 0 0;
 }

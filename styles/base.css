@@ -33,10 +33,16 @@
 			margin: 0;
 		}
 
+		.letterhead svg {
+			width: 2rem;
+			height: auto;
+			vertical-align: middle;
+		}
+
 		.letterhead a svg * {
 			fill: var(--text-colour);
 		}
-
+		
 		a {
 			color: var(--link-colour);
 		}
