@@ -90,7 +90,7 @@
 		}
 		#article sub {
 			display: block;
-			width: 80%;
+			width: calc(100% - var(--content-padding));
 			margin: 0 auto;
 		}
 
