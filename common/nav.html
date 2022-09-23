@@ -5,7 +5,7 @@
 </head>
 
 <nav class="menu">
-  <ul>
+  <ul class="movablemenu">
     <li>
       <a href="/index.html" class="menuItem" id="Home" title="Home">Home</a>
     </li>
@@ -45,6 +45,9 @@
         text-decoration: none;
         text-transform: lowercase;
       }	
+      .hamburger {
+        display: none;
+      }
     }  
 
   /* Mobile */  
@@ -66,7 +69,7 @@
       .closeIcon {
         display: none;
       }
-      .menu {
+      .movablemenu {
         position: fixed;
         transform: translateY(-100%);
         transition: transform 0.2s;
@@ -90,7 +93,7 @@
 
 <script>
   // Menu toggling script
-  const menu = document.querySelector(".menu");
+  const menu = document.querySelector(".movablemenu");
   const menuItems = document.querySelectorAll(".menuItem");
   const hamburger= document.querySelector(".hamburger");
   const closeIcon= document.querySelector(".closeIcon");
