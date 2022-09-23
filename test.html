@@ -1,11 +1,110 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <span>hey</span>    
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Lex Feathers">
+		<link rel="icon" type="image/x-icon" href="/images/feather.ico">
+
+		<link rel="stylesheet" type="text/css" href="/styles/base.css">
+		<script src="/scripts/global.js" defer="defer"></script>
+		<script src="/scripts/htmlinclude.js"></script>
+		<script src="/scripts/togglemenu.js"></script>
+
+		<title w3-include-html="/common/site_title.html"></title>	
+		<meta name="description" content="thoughts from scratch">    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
 
   <body>
-    <title>testsite</title>
+    <nav class="menu">
+      <ul class="movablemenu menuslider">
+        <li>
+          <a href="/index.html" class="menuItem" id="Home" title="Home">Home</a>
+        </li>
+        <li>
+          <a href="/archive.html" class="menuItem" id="Archive" title="Archive">Archive</a>
+        </li>								
+        <li>
+          <a href="/info.html" class="menuItem" id="About" title="About">About</a>
+        </li>
+        <li>
+          <a href="/contact.html" class="menuItem" id="Contact" title="Contact">Contact</a>
+        </li>
+      </ul>
+      <button class="hamburgerbutton">
+        <!-- material icons https://material.io/resources/icons/ -->
+        <i class="menuIcon material-icons">menu</i>
+        <i class="closeIcon material-icons">close</i>
+      </button>
+    </nav>
+    
+    <style>
+    /* Menu styles */
+    
+      /* Desktop */
+        @media screen and (min-width: 750px) {
+          .menu ul {
+            list-style: none;
+            padding: 0;
+          }
+          .menu ul li {
+            margin-right: 1rem;
+            display: inline;
+            font-size: var(--menu-item-size);
+            font-weight: bold;
+          }
+          .menu ul li a {
+            text-decoration: none;
+            text-transform: lowercase;
+          }	
+          .hamburgerbutton {
+            display: none;
+          }
+        }  
+    
+      /* Mobile */  
+    
+        /* Hamburger menu styles */
+        @media screen and (max-width: 749px) {
+          .hamburgerbutton {
+            display: block;
+            position: fixed;
+            z-index: 100;
+            top: 1rem;
+            right: 1rem;
+            padding: 4px;
+            border: var(--link-colour) solid 1px;
+            border-radius: var(--border-radius);
+            background: var(--background-colour);
+            cursor: pointer;
+            color: var(--link-colour);
+          }
+          .closeIcon {
+            display: none;
+          }
+          .menuslider {
+            transform: translateY(calc(-100% - calc(var(--content-padding) / 1.5)));
+            transition: transform 0.2s;
+          }
+          .movablemenu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 99;
+            background: var(--foreground-colour);
+            color: var(--link-colour);
+            list-style: none;
+            padding-top: 4rem;
+          }
+          .showMenu {
+            transform: translateY(0);
+          }
+        }
+    </style>
+
     <p>body text</p>
   </body>
 </html>
