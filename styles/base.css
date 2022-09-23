@@ -40,7 +40,7 @@
 		}
 
 		.letterhead a svg * {
-			fill: var(--text-colour);
+			fill: var(--link-colour);
 		}
 		
 		a {
