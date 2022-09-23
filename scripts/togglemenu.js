@@ -1,7 +1,7 @@
   // Menu toggling script
   const movablemenu = document.querySelector(".movablemenu");
   const menuItems = document.querySelectorAll(".menuItem");
-  const hamburger = document.querySelector(".hamburger");
+  const hamburger = document.querySelector(".hamburgerbutton");
   const closeIcon = document.querySelector(".closeIcon");
   const menuIcon = document.querySelector(".menuIcon");
 
