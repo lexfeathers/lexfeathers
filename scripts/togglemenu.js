@@ -17,7 +17,9 @@
     }
   }
 
-  hamburgerbutton.addEventListener("click", toggleMenu);
+  function listening() {
+    hamburgerbutton.addEventListener("click", toggleMenu);
+  }
 
   // Hide menu if a menu item has been clicked
   menuItems.forEach( 
