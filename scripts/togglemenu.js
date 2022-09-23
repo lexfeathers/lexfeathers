@@ -1,7 +1,7 @@
   // Menu toggling script
   const movablemenu = document.querySelector(".menuslider");
   const menuItems = document.querySelectorAll(".menuItem");
-  const hamburger = document.querySelector(".hamburgerbutton");
+  const hamburgerbutton = document.querySelector(".hamburgerbutton");
   const closeIcon = document.querySelector(".closeIcon");
   const menuIcon = document.querySelector(".menuIcon");
 
@@ -17,7 +17,7 @@
     }
   }
 
-  hamburger.addEventListener("click", toggleMenu);
+  hamburgerbutton.addEventListener("click", toggleMenu);
 
   // Hide menu if a menu item has been clicked
   menuItems.forEach( 
