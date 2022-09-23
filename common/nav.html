@@ -2,7 +2,7 @@
   <!-- <link rel="stylesheet" type="text/css" href="/styles/nav.css"> -->
   <!-- Material Icon CDN -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <script src="/scripts/togglemenu.js"></script>
+  <!-- <script src="/scripts/togglemenu.js"></script> -->
 </head>
 
 <nav class="menu">
@@ -91,36 +91,3 @@
     }
 
 </style>
-
-<script>
-  // Menu toggling script
-  const movablemenu = document.querySelector(".movablemenu");
-  const menuItems = document.querySelectorAll(".menuItem");
-  const hamburger = document.querySelector(".hamburger");
-  const closeIcon = document.querySelector(".closeIcon");
-  const menuIcon = document.querySelector(".menuIcon");
-
-  function toggleMenu() {
-    if (movablemenu.classList.contains("showMenu")) {
-      movablemenu.classList.remove("showMenu");
-      closeIcon.style.display = "none";
-      menuIcon.style.display = "block";
-      debug.log;
-    } else {
-      movablemenu.classList.add("showMenu");
-      closeIcon.style.display = "block";
-      menuIcon.style.display = "none";
-      debug.log;
-    }
-  }
-
-  hamburger.addEventListener("click", toggleMenu);
-
-  // Hide menu if a menu item has been clicked
-  menuItems.forEach( 
-    function(menuItem) { 
-      menuItem.addEventListener("click", toggleMenu);
-      debug.log;
-    }
-  )  
-</script>
