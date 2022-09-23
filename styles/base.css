@@ -82,6 +82,11 @@
 			margin-top: auto;
 		}
 
+		#article img {
+			width: 80%;
+			margin-left: var(--content-padding);
+		}
+
 		.copyright {
 			display: block;
 			color: var(--link-colour);
@@ -102,6 +107,10 @@
 			#Home {
 				display: none;
 				margin: 0;
+			}
+			#article img {
+				width: 100%;
+				padding: calc(var(--content-padding) / 2);
 			}
 		}
 /*End private styles*/	
