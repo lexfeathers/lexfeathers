@@ -86,7 +86,7 @@
 			display: block;
 			width: 80%;
 			margin: 0 auto;
-			padding: var(--content-padding);
+			padding: calc(var(--content-padding) / 2);
 		}
 
 		.copyright {
@@ -112,7 +112,6 @@
 			}
 			#article img, sub {
 				width: calc(100% - var(--content-padding));
-				padding: calc(var(--content-padding) / 2);
 			}
 		}
 /*End private styles*/	
