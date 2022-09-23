@@ -82,16 +82,11 @@
 			margin-top: auto;
 		}
 
-		#article img {
+		#article img, sub {
 			display: block;
 			width: 80%;
 			margin: 0 auto;
 			padding: var(--content-padding);
-		}
-		#article sub {
-			display: block;
-			width: calc(100% - var(--content-padding));
-			margin: 0 auto;
 		}
 
 		.copyright {
@@ -115,7 +110,7 @@
 				display: none;
 				margin: 0;
 			}
-			#article img {
+			#article img, sub {
 				width: calc(100% - var(--content-padding));
 				padding: calc(var(--content-padding) / 2);
 			}
