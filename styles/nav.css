@@ -46,7 +46,7 @@
       background: var(--foreground-colour);
       color: var(--link-colour);
       list-style: none;
-      padding-top: 4rem;
+      margin-top: 0;
     }
     #menulinks {
       display: none;
