@@ -2,6 +2,9 @@
 
   /* Desktop */
   @media screen and (min-width: 750px) {
+    #menulinks {
+      display: block;
+    }
     .menu ul {
       list-style: none;
       padding: 0;
@@ -18,9 +21,6 @@
     }	
     .hamburgerbutton {
       display: none;
-    }
-    #menulinks {
-      display: block;
     }
   }  
 
