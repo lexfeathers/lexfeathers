@@ -19,6 +19,9 @@
     .hamburgerbutton {
       display: none;
     }
+    #menulinks {
+      display: block;
+    }
   }  
 
 /* Mobile */  
