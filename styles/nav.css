@@ -52,9 +52,11 @@
       list-style: none;
       margin-top: 0;
     }
+    .movablemenu li {
+      margin: 1rem 0 0 0;
+    }
     .menuItem {
       text-decoration: none;
-      margin: 1rem 0 0 0;
     }
     #menulinks {
       display: none;
