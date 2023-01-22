@@ -1,5 +1,5 @@
 <head>
-  <!-- <link rel="stylesheet" type="text/css" href="/styles/nav.css"> -->
+  <link rel="stylesheet" type="text/css" href="/styles/nav.css">
   <!-- Material Icon CDN -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- <script src="/scripts/togglemenu.js"></script> -->
@@ -21,60 +21,3 @@
     </li>
   </ul>
 </nav>
-
-<style>
-/* Menu styles */
-
-  /* Desktop */
-    @media screen and (min-width: 750px) {
-      .menu ul {
-        list-style: none;
-        padding: 0;
-      }
-      .menu ul li {
-        margin-right: 1rem;
-        display: inline;
-        font-size: var(--menu-item-size);
-        font-weight: bold;
-      }
-      .menu ul li a {
-        text-decoration: none;
-        text-transform: lowercase;
-      }	
-      .hamburgerbutton {
-        display: none;
-      }
-    }  
-
-  /* Mobile */  
-
-    /* Hamburger menu styles */
-    @media screen and (max-width: 749px) {
-      .hamburgerbutton {
-        display: block;
-        padding: 4px;
-        border: var(--link-colour) 1px solid;
-        border-left: 0;
-        border-bottom: 0;
-        border-radius: var(--border-radius);
-        background: var(--background-colour);
-        cursor: pointer;
-        color: var(--link-colour);
-      }
-      .closeIcon {
-        display: none;
-      }
-      .movablemenu {
-        position: relative;
-        overflow: hidden;
-        z-index: 99;
-        background: var(--foreground-colour);
-        color: var(--link-colour);
-        list-style: none;
-        padding-top: 4rem;
-      }
-      #menulinks {
-        display: none;
-      }
-    }
-</style>

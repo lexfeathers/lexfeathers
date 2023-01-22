@@ -12,3 +12,7 @@
   text-decoration: none;
   color: var(--text-colour);
 }
+/* Hide close icon on page load */
+#closeIcon {
+  display: none;
+}
