@@ -4,10 +4,11 @@
   align-items: center;
 }
 /* Logo */
-.letterhead>* {
+.letterhead a svg {
   margin: 0 0.75rem 0 0;
 }
 .letterhead a {
+  display: inherit;
   text-decoration: none;
   color: var(--text-colour);
 }
