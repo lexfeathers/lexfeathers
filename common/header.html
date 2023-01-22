@@ -11,9 +11,31 @@
     </svg>
     <h1 class="title">Lex Feathers</h1>
   </a>
-  <button class="hamburgerbutton">
-    <!-- material icons https://material.io/resources/icons/ -->
-    <i class="menuIcon material-icons">menu</i>
-    <i class="closeIcon material-icons">close</i>
-  </button>
+  <a href="javascript:void(0);" class="icon" onclick="toggleMobileMenu()">
+    <button class="hamburgerbutton">
+      <!-- material icons https://material.io/resources/icons/ -->
+      <i id="menuIcon" class="material-icons">menu</i>
+      <i id="closeIcon" class="material-icons">close</i>
+    </button>
+  </a>
 </div>
+
+<script>
+  /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu icon */
+ function toggleMobileMenu() {
+
+   var menuLinks = document.getElementById("menulinks");
+   var menuIcon = document.getElementById("menuIcon");
+   var closeIcon = document.getElementById("closeIcon");
+
+   if (menuLinks.style.display === "block") {
+      menuLinks.style.display = "none";
+      closeIcon.style.display = "none";
+      menuIcon.style.display = "block";
+   } else {
+      menuLinks.style.display = "block";
+      closeIcon.style.display = "block";
+      menuIcon.style.display = "none";
+   }
+} 
+</script>

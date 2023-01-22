@@ -6,7 +6,7 @@
 </head>
 
 <nav class="menu">
-  <ul class="movablemenu menuslider">
+  <ul class="movablemenu" id="menulinks">
     <li>
       <a href="/index.html" class="menuItem" id="Home" title="Home">Home</a>
     </li>
@@ -52,12 +52,6 @@
     @media screen and (max-width: 749px) {
       .hamburgerbutton {
         display: block;
-        /* 
-        position: fixed;
-        z-index: 100;
-        top: 1rem;
-        right: 1rem; 
-        */
         padding: 4px;
         border: var(--link-colour) 1px solid;
         border-left: 0;
@@ -70,25 +64,17 @@
       .closeIcon {
         display: none;
       }
-      .menuslider {
-        transform: translateY(calc(-100% - calc(var(--content-padding) / 1.5)));
-        transition: transform 0.2s;
-      }
       .movablemenu {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
+        position: relative;
+        overflow: hidden;
         z-index: 99;
         background: var(--foreground-colour);
         color: var(--link-colour);
         list-style: none;
         padding-top: 4rem;
       }
-      .showMenu {
-        transform: translateY(0);
+      #menulinks {
+        display: none;
       }
     }
-
 </style>
