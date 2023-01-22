@@ -113,5 +113,8 @@
 			#article img, sub {
 				width: calc(100% - var(--content-padding));
 			}
+			.material-icons {
+				font-size: 24pt;
+			}
 		}
 /*End private styles*/	
