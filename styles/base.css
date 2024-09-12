@@ -29,6 +29,10 @@
 
 /*Begin private styles*/
 /* Desktop */
+html {
+	height: 100%;
+}
+
 body {
 	font-family: 'Fira Code', novel-mono-pro, monospace;
 	background-color: var(--background-colour);
@@ -37,6 +41,11 @@ body {
 	font-weight: 100;
 	line-height: var(--line-height);
 	margin: 0;
+	height: 100%;
+}
+
+div.page-width {
+	height: 100%;
 }
 
 h1,
