@@ -110,6 +110,7 @@ hr {
 img {
 	border-radius: 32px;
 	box-shadow: 0px 4px 4px black;
+	background-color: var(--background-colour-light);
 }
 
 #article img,
