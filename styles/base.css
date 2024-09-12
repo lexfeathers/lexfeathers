@@ -76,7 +76,7 @@ hr {
 }
 
 .maincontainer {
-	padding: var(--content-padding);
+	padding: 0 var(--content-padding);
 	background-color: var(--foreground-colour);
 	display: flex;
 	flex-direction: column;
