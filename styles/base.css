@@ -15,6 +15,7 @@
 	--foreground-colour: #110b1e;
 	--text-colour: #F4D8CD;
 	--link-colour: #EE4266;
+	--background-colour-light: color-mix(in hsl, var(--background-colour) 95%, var(--text-colour) 5%);
 
 	/* Borders */
 	--border-thickness: 2px;
@@ -100,6 +101,7 @@ sub {
 	overflow: hidden;
 	border-radius: 4px;
 	box-shadow: 0px 4px 4px black;
+	background-color: var(--background-colour-light);
 }
 
 .copyright {
