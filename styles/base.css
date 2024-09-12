@@ -78,12 +78,21 @@ hr {
 .maincontainer {
 	padding: var(--content-padding);
 	background-color: var(--foreground-colour);
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
 }
 
 .maincontainer section {
 	/*border: var(--border-thickness) solid var(--link-colour);*/
 	border-radius: var(--border-radius);
 	padding: 2rem 0 2rem 0;
+}
+
+.maincontainer section #article {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
 }
 
 .maincontainer section h2 {
@@ -94,9 +103,9 @@ hr {
 	border-radius: var(--border-radius);
 }
 
-#article h1 {
-	margin-top: auto;
-}
+/* #article h1 {
+	margin-top: 2rem;
+} */
 
 img {
 	border-radius: 32px;
@@ -117,6 +126,12 @@ sub {
 	border-radius: 4px;
 	box-shadow: 0px 4px 4px black;
 	background-color: var(--background-colour-light);
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	flex: 0;
 }
 
 .copyright {
