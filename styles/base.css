@@ -87,8 +87,7 @@ hr {
 }
 
 #article img,
-sub,
-img {
+sub {
 	display: block;
 	width: 80%;
 	margin: 0 auto;
