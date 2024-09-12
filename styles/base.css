@@ -95,6 +95,14 @@ img {
 	padding: calc(var(--content-padding) / 2);
 }
 
+.cropped {
+	width: 80%;
+	height: auto;
+	overflow: hidden;
+	border-radius: 4px;
+	box-shadow: 0px 4px 4px black;
+}
+
 .copyright {
 	display: block;
 	color: var(--link-colour);
