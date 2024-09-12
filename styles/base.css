@@ -11,11 +11,11 @@
 	--line-height: 1.4;
 
 	/* Colours */
-	--background-colour: #110b1e;
-	--foreground-colour: #110b1e;
+	--background-colour: #1a1a1a;
+	--foreground-colour: color-mix(in hsl, var(--background-colour), var(--text-colour) 2%);
 	--text-colour: #F4D8CD;
 	--link-colour: #EE4266;
-	--background-colour-light: color-mix(in hsl, var(--background-colour), white 6%);
+	--background-colour-light: color-mix(in hsl, var(--background-colour), var(--text-colour) 6%);
 
 	/* Borders */
 	--border-thickness: 2px;
