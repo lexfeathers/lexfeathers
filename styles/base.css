@@ -20,6 +20,9 @@
 	/* Borders */
 	--border-thickness: 2px;
 	--border-radius: 4px;
+
+	/* Shadow */
+	--shadow: 0px 4px 4px black;
 }
 
 /*End global variables*/
@@ -44,6 +47,7 @@ h3 {
 h2 {
 	font-weight: 400;
 	font-size: 18pt;
+	box-shadow: var(--shadow);
 }
 
 .letterhead svg {
@@ -109,7 +113,7 @@ hr {
 
 img {
 	border-radius: 32px;
-	box-shadow: 0px 4px 4px black;
+	box-shadow: var(--shadow);
 	background-color: var(--background-colour-light);
 }
 
@@ -126,7 +130,7 @@ sub {
 	height: auto;
 	overflow: hidden;
 	border-radius: 4px;
-	box-shadow: 0px 4px 4px black;
+	box-shadow: var(--shadow);
 	background-color: var(--background-colour-light);
 }
 
