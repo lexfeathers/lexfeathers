@@ -26,7 +26,7 @@
 /*Begin private styles*/
 /* Desktop */
 body {
-	font-family: novel-mono-pro, monospace;
+	font-family: 'Fira Code', novel-mono-pro, monospace;
 	background-color: var(--background-colour);
 	color: var(--text-colour);
 	font-size: var(--text-size);
