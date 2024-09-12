@@ -88,7 +88,7 @@ hr {
 
 .maincontainer section h2 {
 	padding: 0.5rem;
-	text-decoration: underline;
+	/* text-decoration: underline; */
 	background-color: var(--link-colour);
 	color: var(--background-colour);
 	border-radius: var(--border-radius);
