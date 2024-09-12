@@ -89,7 +89,7 @@ hr {
 	padding: 2rem 0 2rem 0;
 }
 
-.maincontainer section #article {
+.maincontainer section#article {
 	display: flex;
 	flex-direction: column;
 	flex: 1;
