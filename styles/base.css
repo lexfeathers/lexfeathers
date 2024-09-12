@@ -22,7 +22,7 @@
 	--border-radius: 4px;
 
 	/* Shadow */
-	--shadow: 0px 4px 4px black;
+	--shadow: 0px 4px 4px var(--background-colour);
 }
 
 /*End global variables*/
