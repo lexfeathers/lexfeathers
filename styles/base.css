@@ -86,7 +86,7 @@ hr {
 .maincontainer section {
 	/*border: var(--border-thickness) solid var(--link-colour);*/
 	border-radius: var(--border-radius);
-	padding: 2rem 0 2rem 0;
+	/* padding: 2rem 0; */
 }
 
 .maincontainer section#article {
