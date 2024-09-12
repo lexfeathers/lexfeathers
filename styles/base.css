@@ -31,6 +31,7 @@ body {
 	background-color: var(--background-colour);
 	color: var(--text-colour);
 	font-size: var(--text-size);
+	font-weight: 100;
 	line-height: var(--line-height);
 	margin: 0;
 }
